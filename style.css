@@ -34,7 +34,7 @@ body {
   border-radius: 30px;
   flex: 1;
   margin-right: 16px;
-  font-size: 2  vw;
+  font-size: 1rem;
 }
 .search button{
   /* position: ; */
