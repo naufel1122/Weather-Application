@@ -5,12 +5,18 @@
   font-family: "poppins", sans-serif;
 }
 body {
-  background-color: #222;
+  /* background-color: #222; */
+  background-image:url('./images/background.jpg');
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .card {
   width: 90%;
   max-width: 470px;
-  background: linear-gradient(135deg, #00feba, #5b548a);
+  /* background: linear-gradient(135deg, #00feba, #5b548a); */
+  background-color: rgba(68, 68, 74, 0.2);
+  backdrop-filter: blur(15px);
   color: #fff;
   margin: 100px auto 0;
   border-radius: 20px;
